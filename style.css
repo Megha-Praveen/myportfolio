@@ -355,6 +355,115 @@
     color: #DCDCDC;
 }
 
+/* Experience Section - Portfolio Theme */
+.experience-section {
+  background: linear-gradient(135deg, #1A1A2E, #22223B);
+  color: #EAFDFC;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #FF5E78;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #DCDCDC;
+}
+
+/* Timeline Styling */
+.timeline {
+  position: relative;
+  padding-left: 30px;
+  border-left: 2px solid rgba(255, 94, 120, 0.3);
+}
+
+.timeline-item {
+  padding-left: 20px;
+}
+
+.timeline-dot {
+  width: 15px;
+  height: 15px;
+  background: #FF5E78;
+  border-radius: 50%;
+  position: absolute;
+  left: -8px;
+  top: 5px;
+  box-shadow: 0 0 10px rgba(255, 94, 120, 0.5);
+}
+
+.timeline-date {
+  display: block;
+  color: #FFD700;
+  margin-bottom: 5px;
+}
+
+.timeline-item p {
+  color: #DCDCDC;
+  margin-top: 5px;
+}
+
+/* Hover Effect */
+.timeline-item:hover .timeline-dot {
+  background: #FFD700;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+  transition: 0.3s ease-in-out;
+}
+
+/* Service section - Matching Portfolio Theme */
+.services-section {
+  background: linear-gradient(135deg, #1A1A2E, #22223B);
+  color: #EAFDFC;
+  font-family: 'Lato', sans-serif;
+}
+
+.services-section .section-title {
+  font-size: 2.3rem;
+  color: #FF5E78;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.services-section .section-subtitle {
+  font-size: 1.1rem;
+  color: #DCDCDC;
+  margin-bottom: 3rem;
+}
+
+.service-card {
+  background-color: #22223B;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(255, 94, 120, 0.2);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 16px rgba(255, 94, 120, 0.4);
+}
+
+.service-icon i {
+  font-size: 2.5rem;
+  color: #FF5E78;
+  margin-bottom: 15px;
+}
+
+.service-card h4 {
+  color: #EAFDFC;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #DCDCDC;
+  font-size: 0.95rem;
+}
+
 
 /* Contact Section */
 .contact-section {
